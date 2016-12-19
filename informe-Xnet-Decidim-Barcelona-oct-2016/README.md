@@ -14,13 +14,13 @@ Las competencias de Xnet en este ámbito derivan de sus investigaciones y experi
 
 
 
-**RESUMEN DEL CONTENIDO DEL INFORME**
+### RESUMEN DEL CONTENIDO DEL INFORME
 
 El proceso participativo de Decidim.Barcelona ha supuesto un gran paso adelante no solo respecto lo que desde el gobierno de la ciudad se había promovido anteriormente, sino también en comparación con herramientas de participación similares en otras ciudades y países. Técnicamente Decidim.Barcelona supone un gran avance tecnopolítico que por fin aprovecha la capacidad de las herramientas digitales y de una sociedad conectada y supone una gran actualización para la ciudad.Salvo algunas recomendaciones de índole técnica, la mayoría de las mejoras recomendadas son de carácter metodológico y de usabilidad o enfocadas a desplegar más provechosamente su potencial.
 
 
 
-**QUÉ AVANCES HA SUPUESTO DECIDIM.BARCELONA**
+### QUÉ AVANCES HA SUPUESTO DECIDIM.BARCELONA
 
 Entre los aspectos más positivos o novedosos de la herramienta queremos remarcar:
 
@@ -48,7 +48,7 @@ Entre los aspectos más positivos o novedosos de la herramienta queremos remarca
 
 
 
-**RECOMENDACIONES PARA LA MEJORA DE LA HERRAMIENTA**
+### RECOMENDACIONES PARA LA MEJORA DE LA HERRAMIENTA
 
 La idea de 'participación' se ha puesto de moda gracias a los esfuerzo de la ciudadanía para reclamar su centralidad en los procesos políticos. A causa a este éxito, el concepto de 'participación' ha también sufrido un desgaste debido a la proliferación de prácticas y herramientas en los que la interacción del ciudadano es simplista y acotada y su poder decisorio efectivo es casi nulo.
 
@@ -56,13 +56,12 @@ Desde Xnet defendemos que la participación política ciudadana debe ser program
 
 Entendemos que Decidim.Barcelona comparte este objetivo y, como apunta su nombre, busca permitir que la ciudadanía *decida*. Desde esta perspectiva, los puntos para la mejora del resultado funcional de Decidim.Barcelona que recomendaríamos estudiar pertenecen principalmente a dos ámbitos: 
 
-​1) El contenido, es decir, el punto de partida y el objetivo de cada proceso.​2) La funcionalidad y la tarea de moderación de cada proceso.
+​1) El contenido, es decir, el punto de partida y el objetivo de cada proceso.​
+2) La funcionalidad y la tarea de moderación de cada proceso.
 
 
 
-**1) Recomendaciones sobre el contenido de los procesos participativos: punto de partida -
-
-> concreción del objetivo**
+#### 1) Recomendaciones sobre el contenido de los procesos participativos: punto de partida -> concreción del objetivo
 
 Es importante prestar atención y recoger los deseos y aspiraciones de la ciudadanía y encauzarlos al objetivo final de su resolución práctica.Es necesario poner esfuerzo y recursos en conseguir que el resultado final del proceso sean textos legales programáticos o diseños de políticas públicas. Intentar esquivar esta complejidad en aras de mejorar la usabilidad y acceso a la herramienta, conlleva el peligro de que el resultado se quede en una mera declaración de intenciones, sin el suficiente desarrollo para que sea realmente programático.
 
@@ -74,15 +73,18 @@ Para conseguir un proceso cuyo resultado sean textos concretos y programáticos,
 
 Es deseable que la participación parta de una realidad concreta ya existente e incluya a todas las partes que consideramos que puedan contribuir en un proceso robusto, que amplíe las áreas de consenso y negociación desde el primer momento. Algunas fuentes desde las que es inevitable partir en el comienzo del proceso participativo son:
 
-1 - Programas electorales:La ciudadanía ya ha expresado una parte de sus preferencias a través del voto a sendos partidos durante las elecciones. En algunos casos, además, los programas de los partidos ya pasaron un proceso de participación ciudadana. Para que este trabajo ciudadano no se haya hecho en balde y para romper con la lógica de la democracia representativa secuestrada por la política de partidos, es fundamental que los procesos de participación incluyan los programas electorales de los partidos de gobierno para hacer que los partidos los defiendan desde una perspectiva práctica concreta.
+1 - **Programas electorales**:
+La ciudadanía ya ha expresado una parte de sus preferencias a través del voto a sendos partidos durante las elecciones. En algunos casos, además, los programas de los partidos ya pasaron un proceso de participación ciudadana. Para que este trabajo ciudadano no se haya hecho en balde y para romper con la lógica de la democracia representativa secuestrada por la política de partidos, es fundamental que los procesos de participación incluyan los programas electorales de los partidos de gobierno para hacer que los partidos los defiendan desde una perspectiva práctica concreta.
 
 
 
-2 - Documentos programáticos de la sociedad civil:El mapeo previo de los documentos ya generados por entidades y agentes activos de la sociedad civil que ya están trabajando en los diferentes ejes temáticos y que representan lo más avanzado en cada ámbito.
+2 - **Documentos programáticos de la sociedad civil**:
+El mapeo previo de los documentos ya generados por entidades y agentes activos de la sociedad civil que ya están trabajando en los diferentes ejes temáticos y que representan lo más avanzado en cada ámbito.
 
 
 
-3 - La legislación vigente:Es inevitablemente el punto de partida, ya que el resultado del proceso participativo aspira a acabar desembocando en una transformación de la misma. Es necesario recoger la legislación relativa a los ámbitos desarrollados y volcarla en el proceso participativo en un lenguaje cotidiano.
+3 - **La legislación vigente**:
+Es inevitablemente el punto de partida, ya que el resultado del proceso participativo aspira a acabar desembocando en una transformación de la misma. Es necesario recoger la legislación relativa a los ámbitos desarrollados y volcarla en el proceso participativo en un lenguaje cotidiano.
 
 
 
@@ -94,7 +96,7 @@ Desde una perspectiva técnica y de interfaz, si se partiese de un único docume
 
 
 
-**2) Moderación**
+#### 2) Moderación
 
 Más allá de toda mejora técnica de la herramienta, el principal instrumento para conseguir un proceso robusto con un resultado final sólido es un moderación efectiva. Esta moderación no puede ser a posteriori, debe ser continua, acompañando todo el proceso. Es necesario que se dediquen recursos a conseguir una moderación desde la competencia y en tiempo real que descarte de manera temprana y justificada las aportaciones inviables, fuera de competencia, maliciosas, etc. La moderación debe estar enfocada a dirigir el debate hacia el máximo aprovechamiento de la *expertise* de la sociedad civil, de manera que el proceso participativo se construya siempre en positivo, en lugar de ser disperso y malgastar energía y recursos de la ciudadanía y el Ayuntamiento.
 
@@ -102,11 +104,11 @@ El hecho de partir de documentos iniciales más elaborados y acotados y de lleva
 
 
 
-- *Cauces*. A nivel de interfaz debería habilitarse un cauce para que las propuestas inviables - por irrealizables, fuera de las competencias o fuera de los objetivos - se puedan guardar a la vista como descartadas, pero no contaminen la visualización del resto. Es importante tener un registro de este tipo de propuestas inviables y justificarlas debidamente como tal, tanto por una razón de transparencia del proceso como para evitar que resurjan una y otra vez (ver *evitar duplicidades* más adelante).Más aún, las intervenciones fuera de los objetivos pero de interés para la mejora de la ciudad podrían encauzarse directamente por parte de los moderadores a otras herramientas ya habilitadas por el Ayuntamiento, como, por ejemplo, IRIS. Esto permitiría aprovechar con más eficiencia el esfuerzo ciudadano.
+* **Cauces**. A nivel de interfaz debería habilitarse un cauce para que las propuestas inviables - por irrealizables, fuera de las competencias o fuera de los objetivos - se puedan guardar a la vista como descartadas, pero no contaminen la visualización del resto. Es importante tener un registro de este tipo de propuestas inviables y justificarlas debidamente como tal, tanto por una razón de transparencia del proceso como para evitar que resurjan una y otra vez (ver *evitar duplicidades* más adelante).Más aún, las intervenciones fuera de los objetivos pero de interés para la mejora de la ciudad podrían encauzarse directamente por parte de los moderadores a otras herramientas ya habilitadas por el Ayuntamiento, como, por ejemplo, IRIS. Esto permitiría aprovechar con más eficiencia el esfuerzo ciudadano.
 
 
 
-- *Política.* Consideramos que la moderación por parte del equipo del Ayuntamiento no puede ser neutral, ya que el gobierno ha sido votado por la ciudadanía en base a un programa y unas directrices políticas en contraposición a otras. Es inevitable y necesario que el diseño programático refleje estas directrices. Estas son las directrices sobre las que debe basarse la moderación. A pesar de que la política del ayuntamiento tenga una dirección clara por la que se le ha votado y elegido, tiene que gobernar para toda la ciudad por lo que debe incluir al máximo la diversidad de opiniones. El trabajo sobre la participación consiste también en integrar, con el máximo de aceptación posible, nuevos matices.
+* **Política**. Consideramos que la moderación por parte del equipo del Ayuntamiento no puede ser neutral, ya que el gobierno ha sido votado por la ciudadanía en base a un programa y unas directrices políticas en contraposición a otras. Es inevitable y necesario que el diseño programático refleje estas directrices. Estas son las directrices sobre las que debe basarse la moderación. A pesar de que la política del ayuntamiento tenga una dirección clara por la que se le ha votado y elegido, tiene que gobernar para toda la ciudad por lo que debe incluir al máximo la diversidad de opiniones. El trabajo sobre la participación consiste también en integrar, con el máximo de aceptación posible, nuevos matices.
 
 Por todo ello, los moderadores, designados por parte de los departamentos con competencias sobre los contenidos de los varios procesos, deberían poder acompañar las intervenciones de la ciudadanía, encauzándola y profundizando en los argumentos en tiempo real, sabiendo en todo momento como resolver matices y obtener conclusiones concretas y detalladas.
 
@@ -114,21 +116,21 @@ Por todo ello, los moderadores, designados por parte de los departamentos con co
 
 
 
-- *En tiempo real*. La presencia de la moderación tiene que acompañar de manera constante los tiempos de participación. La moderación inmediata o incluso previa (poniendo recursos para evitar un cuello de botella y, por supuesto, sin censura injustificada) previene la progresión de propuestas irrealizables o fuera de las competencias del Ayuntamiento que, de no ser redireccionadas desde el principio, contaminarán y perjudicarán la robustez del proceso.
+* **En tiempo real**. La presencia de la moderación tiene que acompañar de manera constante los tiempos de participación. La moderación inmediata o incluso previa (poniendo recursos para evitar un cuello de botella y, por supuesto, sin censura injustificada) previene la progresión de propuestas irrealizables o fuera de las competencias del Ayuntamiento que, de no ser redireccionadas desde el principio, contaminarán y perjudicarán la robustez del proceso.
 
 
 
-- *Desde la competencia*. En las temáticas en las que el ayuntamiento tiene competencias se debe siempre responder desde la competencia (pudiendo indicando que puede tardar más la respuesta de una moderación completa), teniendo disponible a personal de los departamentos competentes para ello.Se evita así, el voto masivo de propuestas muy biensonantes pero sin fundamento o irrealizables y pueden re-encauzarse desde la competencia hacia una objetivo realista o descartarse.
+* **Desde la competencia**. En las temáticas en las que el ayuntamiento tiene competencias se debe siempre responder desde la competencia (pudiendo indicando que puede tardar más la respuesta de una moderación completa), teniendo disponible a personal de los departamentos competentes para ello.Se evita así, el voto masivo de propuestas muy biensonantes pero sin fundamento o irrealizables y pueden re-encauzarse desde la competencia hacia una objetivo realista o descartarse.
 
 *Ej:* [*https://decidim.barcelona/pam/4/proposals/piscinas-municipales-libres-de-cloro*](https://decidim.barcelona/pam/4/proposals/piscinas-municipales-libres-de-cloro)
 
 
 
-- *Guía para la participación y la moderación*. Recomendamos la publicación de una guía detallada y justificada sobre qué actuación concreta se pide a la ciudadanía y con qué formato y cómo se llevan a cabo los procesos de moderación. Esta guía puede estar situada en los aspectos generales de uso de la herramienta o incluso en una sección a parte y debería recomendarse su lectura a los usuarios. Es importante fomentar una participación estructurada y una moderación que tenga entre sus objetivos conseguirla.
+* **Guía para la participación y la moderación**. Recomendamos la publicación de una guía detallada y justificada sobre qué actuación concreta se pide a la ciudadanía y con qué formato y cómo se llevan a cabo los procesos de moderación. Esta guía puede estar situada en los aspectos generales de uso de la herramienta o incluso en una sección a parte y debería recomendarse su lectura a los usuarios. Es importante fomentar una participación estructurada y una moderación que tenga entre sus objetivos conseguirla.
 
 
 
-**ALGUNAS RECOMENDACIONES TÉCNICAS PARA LA PREVENCIÓN DE ABUSOS DE LA HERRAMIENTA**
+### ALGUNAS RECOMENDACIONES TÉCNICAS PARA LA PREVENCIÓN DE ABUSOS DE LA HERRAMIENTA
 
 Hasta ahora no hemos detectado ningún abuso o práctica deshonesta reseñables en la herramienta Decidim.Barcelona por parte de los usuarios. Entendemos que esto ha sido mayormente por la calidad de la herramienta y por su buena gestión, pero también por el hecho de que los resultados no son por ahora claramente vinculantes. En este caso, las posibilidades de que haya intentos de manipulación de la herramienta aumentarán previsiblemente.
 
@@ -136,11 +138,9 @@ El **voto con verificación previa** ya supone ahora mismo una excelente medida 
 
 
 
-- *Evitar duplicidades*. A pesar de que la propia herramienta Consul ya cuenta con un sistema de reagrupación de propuestas a posteriori, recomendamos investigar la implementación de una funcionalidad técnica previa que muestre al ciudadano, en el momento de hacer su aportación, propuestas similares a la suya. El ciudadano puede ver si, efectivamente, un propuesta como la suya ya ha sido recogida anteriormente y decidir dar apoyo a esta, e incluso aportar si cree que puede mejorarla, en vez de duplicarla, disminuyendo la dispersión y mejorando la efectividad del proceso.
+* **Evitar duplicidades**. A pesar de que la propia herramienta Consul ya cuenta con un sistema de reagrupación de propuestas a posteriori, recomendamos investigar la implementación de una funcionalidad técnica previa que muestre al ciudadano, en el momento de hacer su aportación, propuestas similares a la suya. El ciudadano puede ver si, efectivamente, un propuesta como la suya ya ha sido recogida anteriormente y decidir dar apoyo a esta, e incluso aportar si cree que puede mejorarla, en vez de duplicarla, disminuyendo la dispersión y mejorando la efectividad del proceso.
 
-Ej:  [https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence
-
-_score](https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence_score)
+*Ej:*  [*https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence_score*](https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence_score)
 
 *Un ejemplo de implementación práctica de este tipo de funcionalidad para prevenir duplicados se puede encontrar en el agregador****meneame.net****, de código abierto.*
 
@@ -160,19 +160,19 @@ Razonablemente, cabe permitir alguna flexibilidad sobre los dos primeros puntos 
 
 
 
-- *Discusión relevante*. Recomendamos encarecidamente estudiar la implementación de un sistema de valoración de las aportaciones y los comentarios mediante el algoritmo de Wilson. Este sistema corrige estadísticamente vulnerabilidades en el cálculo de priorizaciones y votaciones que pueden ser abusadas para el lobby deshonesto y el spam “*rescatando*” y valorizando las aportaciones relevantes respecto a otras controvertidas pero que pueden no tener ningún interés.
+* **Discusión relevante**. Recomendamos encarecidamente estudiar la implementación de un sistema de valoración de las aportaciones y los comentarios mediante el algoritmo de Wilson. Este sistema corrige estadísticamente vulnerabilidades en el cálculo de priorizaciones y votaciones que pueden ser abusadas para el lobby deshonesto y el spam “*rescatando*” y valorizando las aportaciones relevantes respecto a otras controvertidas pero que pueden no tener ningún interés.
 
 *Evan Miller explica la teoría matemática detrás del algoritmo de Wilson aquí:* [*http://www.evanmiller.org/how-not-to-sort-by-average-rating.html*](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
 
 
 
-- *Distinción por barrio*. Las propuestas que afectan únicamente a barrio/s concreto/s deberían clasificarse como tal desde el principio. De este modo la gente interesada del propio barrio puede encontrarlas más fácilmente y tiene mayor poder decisorio sobre ellas. Si se dejan en el apartado general de propuestas, las propuestas de un barrio concreto resultan más susceptibles a ser objetivo de abusos de astroturfing y lobby deshonesto puesto que ahí la gente del barrio tendría más dificultad en localizarlo mientras que el autor de la propuesta puede promocionarla artificialmente pasándola entre sus contactos por enlace directo.
+* **Distinción por barrio**. Las propuestas que afectan únicamente a barrio/s concreto/s deberían clasificarse como tal desde el principio. De este modo la gente interesada del propio barrio puede encontrarlas más fácilmente y tiene mayor poder decisorio sobre ellas. Si se dejan en el apartado general de propuestas, las propuestas de un barrio concreto resultan más susceptibles a ser objetivo de abusos de astroturfing y lobby deshonesto puesto que ahí la gente del barrio tendría más dificultad en localizarlo mientras que el autor de la propuesta puede promocionarla artificialmente pasándola entre sus contactos por enlace directo.
 
-*Ej:* [*https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot*](https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot)
+*Ej:* [https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot*](https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot)
 
 
 
-**Otros aspectos a mejorar**
+#### Otros aspectos a mejorar
 
 
 
@@ -180,7 +180,7 @@ Razonablemente, cabe permitir alguna flexibilidad sobre los dos primeros puntos 
 
 
 
-**NOTAS FINALES**
+#### NOTAS FINALES
 
 La coherencia y transparencia de los algoritmos técnicos y de la moderación crean un entorno que combina de forma eficaz y realmente democrática la vigilancia de la institución y de la ciudadanía sobre el proceso.
 
