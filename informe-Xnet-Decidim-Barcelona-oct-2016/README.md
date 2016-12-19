@@ -1,4 +1,4 @@
-## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"**
+## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"
 
 *por Xnet* [*https://xnet-x.net*](https://xnet-x.net/)
 
@@ -14,12 +14,14 @@ Las competencias de Xnet en este ámbito derivan de sus investigaciones y experi
 
 
 
+<br />
 ### RESUMEN DEL CONTENIDO DEL INFORME
 
 El proceso participativo de Decidim.Barcelona ha supuesto un gran paso adelante no solo respecto lo que desde el gobierno de la ciudad se había promovido anteriormente, sino también en comparación con herramientas de participación similares en otras ciudades y países. Técnicamente Decidim.Barcelona supone un gran avance tecnopolítico que por fin aprovecha la capacidad de las herramientas digitales y de una sociedad conectada y supone una gran actualización para la ciudad.Salvo algunas recomendaciones de índole técnica, la mayoría de las mejoras recomendadas son de carácter metodológico y de usabilidad o enfocadas a desplegar más provechosamente su potencial.
 
 
 
+<br />
 ### QUÉ AVANCES HA SUPUESTO DECIDIM.BARCELONA
 
 Entre los aspectos más positivos o novedosos de la herramienta queremos remarcar:
@@ -48,6 +50,7 @@ Entre los aspectos más positivos o novedosos de la herramienta queremos remarca
 
 
 
+<br />
 ### RECOMENDACIONES PARA LA MEJORA DE LA HERRAMIENTA
 
 La idea de 'participación' se ha puesto de moda gracias a los esfuerzo de la ciudadanía para reclamar su centralidad en los procesos políticos. A causa a este éxito, el concepto de 'participación' ha también sufrido un desgaste debido a la proliferación de prácticas y herramientas en los que la interacción del ciudadano es simplista y acotada y su poder decisorio efectivo es casi nulo.
@@ -62,6 +65,7 @@ Entendemos que Decidim.Barcelona comparte este objetivo y, como apunta su nombre
 
 
 
+<br />
 ### 1) Recomendaciones sobre el contenido de los procesos participativos: punto de partida -> concreción del objetivo
 
 Es importante prestar atención y recoger los deseos y aspiraciones de la ciudadanía y encauzarlos al objetivo final de su resolución práctica.Es necesario poner esfuerzo y recursos en conseguir que el resultado final del proceso sean textos legales programáticos o diseños de políticas públicas. Intentar esquivar esta complejidad en aras de mejorar la usabilidad y acceso a la herramienta, conlleva el peligro de que el resultado se quede en una mera declaración de intenciones, sin el suficiente desarrollo para que sea realmente programático.
@@ -100,6 +104,7 @@ Desde una perspectiva técnica y de interfaz, si se partiese de un único docume
 
 
 
+<br />
 ### 2) Moderación
 
 Más allá de toda mejora técnica de la herramienta, el principal instrumento para conseguir un proceso robusto con un resultado final sólido es un moderación efectiva. Esta moderación no puede ser a posteriori, debe ser continua, acompañando todo el proceso. Es necesario que se dediquen recursos a conseguir una moderación desde la competencia y en tiempo real que descarte de manera temprana y justificada las aportaciones inviables, fuera de competencia, maliciosas, etc. La moderación debe estar enfocada a dirigir el debate hacia el máximo aprovechamiento de la *expertise* de la sociedad civil, de manera que el proceso participativo se construya siempre en positivo, en lugar de ser disperso y malgastar energía y recursos de la ciudadanía y el Ayuntamiento.
@@ -134,6 +139,7 @@ El hecho de partir de documentos iniciales más elaborados y acotados y de lleva
 
 
 
+<br />
 ### ALGUNAS RECOMENDACIONES TÉCNICAS PARA LA PREVENCIÓN DE ABUSOS DE LA HERRAMIENTA
 
 Hasta ahora no hemos detectado ningún abuso o práctica deshonesta reseñables en la herramienta Decidim.Barcelona por parte de los usuarios. Entendemos que esto ha sido mayormente por la calidad de la herramienta y por su buena gestión, pero también por el hecho de que los resultados no son por ahora claramente vinculantes. En este caso, las posibilidades de que haya intentos de manipulación de la herramienta aumentarán previsiblemente.
@@ -154,11 +160,11 @@ El **voto con verificación previa** ya supone ahora mismo una excelente medida 
 
   Es muy importante tomar las precauciones necesarias para prevenir que la aplicación de medidas técnicas automáticas de este tipo dañen la libertad de expresión y sean sinónimo de censura. Algunas medidas a tomar:
 
-- Que el proceso de retirada de cualquier contenido dependa siempre de una revisión final y verificación por parte de un moderador humano.
+  - Que el proceso de retirada de cualquier contenido dependa siempre de una revisión final y verificación por parte de un moderador humano.
 
-- La mayor transparencia posible en el código de los algoritmos utilizados y explicación de los mismos. Esto mitigaría falsas acusaciones de censura.
+  - La mayor transparencia posible en el código de los algoritmos utilizados y explicación de los mismos. Esto mitigaría falsas acusaciones de censura.
 
-- Implementación de procesos de apelación a la retirada de contenidos.
+  - Implementación de procesos de apelación a la retirada de contenidos.
 
   Razonablemente, cabe permitir alguna flexibilidad sobre los dos primeros puntos anteriores, siempre por seguridad y en casos de flagrante abuso. Ejemplo: la publicación de una misma aportación una y otra vez de manera recursiva, como spam, desde usuarios diferentes pero desde una misma IP. Este tipo de abuso se minimizaría en gran medida si se indica con claridad desde el principio del proceso que las propuestas similares o idénticas serán o bien eliminadas o bien reagrupadas sistemáticamente por la moderación automática. Es absolutamente justificado que las propuestas no tomen relevancia por su reiteración sino solo por su consistencia. Naturalmente todas las evidencias del proceso deben guardarse y ser trazables para tener pruebas fehacientes frente a cualquier reclamación.
 
@@ -176,6 +182,7 @@ El **voto con verificación previa** ya supone ahora mismo una excelente medida 
 
 
 
+<br />
 #### Otros aspectos a mejorar
 
 
@@ -184,6 +191,7 @@ El **voto con verificación previa** ya supone ahora mismo una excelente medida 
 
 
 
+<br />
 ### NOTAS FINALES
 
 La coherencia y transparencia de los algoritmos técnicos y de la moderación crean un entorno que combina de forma eficaz y realmente democrática la vigilancia de la institución y de la ciudadanía sobre el proceso.
