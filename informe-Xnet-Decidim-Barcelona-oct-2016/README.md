@@ -1,7 +1,13 @@
+
+> Versión semi-definitiva en catalán y castellano del informe para últimos comentarios. Si al leerlo encontráis alguna falta no dudéis en corregir.
+
+=============
+
 ## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"
 
 *por Xnet* [*https://xnet-x.net*](https://xnet-x.net/)
 
+<br />
 Se han analizado los principales problemas de vulnerabilidad socio-técnicas, más allá de la mera seguridad informática, de la plataforma de participación política Decidim.Barcelona. El presente informe formula una serie de recomendaciones.
 
 Para la redacción de este informe se han explorado las funcionalidades de la plataforma hasta el 8 de noviembre de 2016, prestando especial atención en cómo ha sido habitada por los usuarios, la interacción estos y la interacción entre usuarios y administradores. Se presentan recomendaciones para la mejora de la herramienta planteadas para la consecución más eficiente de los objetivos de la misma. Estas recomendaciones tienen como finalidad la mayor robustez del proceso para conseguir que la herramienta sea menos vulnerable a malas prácticas y manipulaciones, mejorar el conjunto de la experiencia y, sobre todo, mejorar los resultados de participación política ciudadana.
