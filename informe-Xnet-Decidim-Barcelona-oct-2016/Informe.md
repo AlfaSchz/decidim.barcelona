@@ -192,7 +192,7 @@ La coherència i la transparència dels algoritmes tècnics i de la moderació c
 
 
 
-*[1] Algunes referències: *
+*[1] Algunes referències:*
 
 
 
