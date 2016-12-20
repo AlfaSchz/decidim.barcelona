@@ -3,20 +3,228 @@
 
 =============
 
-## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"
+## RECOMANACIONS RESPECTE A LES VULNERABILITATS SOCI-TÈCNIQUES DE L'EINA "DECIDIM.BARCELONA"
+
+per Xnet [https://xnet-x.net](https://xnet-x.net/) 
+
+<br />
+
+S'han analitzat els principals problemes de vulnerabilitat soci-tècniques, més enllà de la mera seguretat informàtica, de la plataforma de participació política Decidim.Barcelona. El present informe formula una sèrie de recomanacions. 
+
+Per a la redacció d'aquest informe s'han explorat les funcionalitats de la plataforma fins al 8 de novembre de 2016, prestant especial atenció en com ha estat habitada pels usuaris, en la interacció entre ells i la interacció entre usuaris i administradors. Es presenten recomanacions per a la millora de l'eina plantejades per a la consecució més eficient dels objectius d'aquesta. Aquestes recomanacions tenen com a finalitat millorar la robustesa del procés per aconseguir que l'eina sigui menys vulnerable a males pràctiques i manipulacions, millorar el conjunt de l'experiència i, sobretot, millorar els resultats de participació política ciutadana. 
+
+
+
+Les competències d'Xnet en aquest àmbit deriven de les seves investigacions i experiències com a laboratori de l'ús d'Internet per a millora de la democràcia del segle XXI, centrades en la desintermediació que aquesta eina exerceix en diferents àrees i, concretament en aquest cas, en la desintermediació entre la societat civil i els seus representants. Partint de l'ús d'Internet per a les noves formes de participació ciutadana, la comparació d'experiències anteriors i la contribució a plataformes col·laboratives, ha elaborat una metodologia pròpia [1] que desemboca, el 2013-14, en l'impuls i coordinació d'un dels prototips pioners en l'ús de participació política ciutadana: la Xarxa Ciutadana Partit X. Aquest projecte, eminentment metodològic, proposa l'ampliació de les bases del consens i la millora de l'eficiència en participació en el centre dels seus objectius. 
+
+<br />
+
+### RESUM DEL CONTINGUT DE L'INFORME
+
+El procés participatiu de Decidim.Barcelona ha suposat un gran pas endavant no només respecte a tot allò que des del govern de la ciutat s'havia promogut anteriorment, sinó també en comparació amb eines de participació similars en altres ciutats i països. Tècnicament, Decidim.Barcelona suposa un gran avenç tecnopolític que per fi aprofita la capacitat de les eines digitals i d'una societat connectada, i suposa una gran actualització per a la ciutat. 
+
+Excepte algunes recomanacions d'índole tècnica, la majoria de les millores recomanades són de caràcter metodològic i d'usabilitat o enfocades a desplegar-ne més profitosament el potencial. 
+
+<br />
+
+### QUINS AVENÇOS HA SUPOSAT DECIDIM.BARCELONA
+
+Entre els aspectes més positius o nous de l'eina volem remarcar: 
+
+
+- L'elecció de l'eina de codi obert Consul [https://github.com/consul/consul](https://github.com/consul/consul) - robusta per al procés, desenvolupada, testada i millorada per la comunitat de programari lliure.
+
+- Publicació en codi obert a GitHub de les característiques i funcionalitats desenvolupades per Decidim.Barcelona sobre el codi de Consul i que podran ser aprofitades per la comunitat. L'elecció del programari lliure i del codi obert permet una completa transparència i accessibilitat fins i tot en la mateixa estructura de la plataforma i permet a qualsevol persona poder millorar-la o utilitzar-la, constituint un retorn del 100% dels recursos públics a la ciutadania.
+
+- Participació descentralitzada i simultaneïtat. La participació en línia permet a la ciutadania participar des de l'ordinador de casa o des del seu telèfon mòbil i en qualsevol moment, en lloc d'haver d'acudir a determinats punts físics i en horaris concrets, la qual cosa facilita i promou la participació i vigilància del procés.
+
+- Complementació entre les vies de participació digital i analògica, aprofitant l'eina per a la seva sinergia. Això permet abastar integralment tots els tipus de participació.
+
+- Possibilitat de participació anònima que permet, a més d'exercir un dret civil bàsic a Internet, altres externalitats com la possibilitat de testar propostes legals i polítiques públiques sense biaixos com "l'argument d'autoritat" o "l'argument *ad hominen*". La participació en línia facilita la diversitat d'opinions respecte a un debat analògic en el qual la presència de l'autoritat pot coartar pensaments oposats a l'Ajuntament. Això és especialment vàlid pel fet que els comentaris i les propostes poden realitzar-se de manera no-verificada (és a dir. sense que l'usuari hagi de verificar el compte amb les dades del padró), la qual cosa facilita la llibertat de crítica.
+
+- Sistema integrat de verificació amb el padró per poder votar. Aquesta condició és una de les que contribueixen a prevenir comportaments d'*astroturfing*, *Spam* o lobby deshonest.
+
+- Presentació aleatòria per defecte de les propostes que permet que siguin valorades també propostes més innovadores i inusuals, així com també posar al mateix nivell les propostes de les persones, de les organitzacions i de l'Ajuntament.
+
+- Reconeixement de l'autoria de les propostes durant tot el procés i en el resultat final. Això aporta apoderament a la ciutadania que es veu reconeguda. A més, permet la traçabilitat perquè les propostes puguin generar d’altres i variats projectes fora o dins de les vies institucionals.
+
+- Traçabilitat de les propostes, la seva avaluació i el seu retorn. Un recorregut clar i transparent de les fases per les quals passen les diferents aportacions ciutadanes que permet traçar la seva evolució i descartar la possibilitat que hi hagi hagut intervencions opaques o confuses per part dels administradors de l'eina o l'Ajuntament.
+
+- La traçabilitat compta a més amb un sistema de seguiment de propostes mitjançant notificacions per correu electrònic que facilita la vigilància ciutadana del procés.
+
+- Una clara estructura de fases que canalitza i facilita la participació.
+
+<br />
+
+### RECOMANACIONS PER A LA MILLORA DE L'EINA 
+
+La idea de 'participació' s'ha posat de moda gràcies a l'esforç de la ciutadania per reclamar la seva centralitat en els processos polítics. A causa d'aquest èxit, el concepte de 'participació' ha patit també un desgast degut a la proliferació de pràctiques i eines en què la interacció del ciutadà és simplista i acotada i el seu poder decisori efectiu és gairebé nul. 
+
+Des d'Xnet defensem que la participació política ciutadana ha de ser programàtica i no una simulació que distreu el ciutadà de la possibilitat real d'intervenir en el desenvolupament de polítiques. L'aspiració ha de ser la del redactat i disseny col·laboratiu i corresponsable de les legislacions i polítiques públiques que regeixen la gestió dels béns i espais comuns. En resum, la cogovernança de la ciutat. Per tot això, la intervenció ciutadana no s'ha de limitar únicament en els continguts genèrics, sinó també en els detalls dels redactats legislatius. 
+
+Entenem que Decidim.Barcelona comparteix aquest objectiu i, com apunta el seu nom, busca permetre que la ciutadania *decideixi*. Des d'aquesta perspectiva, els punts per a la millora del resultat funcional de Decidim.Barcelona que recomanaríem estudiar es donen principalment en dos àmbits: 
+
+​1) El contingut, és a dir, el punt de partida i l'objectiu de cada procés.
+
+​2) La funcionalitat i la tasca de moderació de cada procés. 
+
+
+<br />
+
+### 1) Recomanacions sobre el contingut dels processos participatius: punt de partida -> concreció de l'objectiu
+
+És important parar atenció i recollir els desitjos i aspiracions de la ciutadania i canalitzar-los l'objectiu final de la seva resolució pràctica. Cal posar esforç i recursos a aconseguir que el resultat final del procés siguin textos legals programàtics o dissenys de polítiques públiques. Intentar esquivar aquesta complexitat amb la finalitat de millorar la usabilitat i accés a l'eina comporta el perill que el resultat acabi sent en una mera declaració d'intencions, sense el suficient desenvolupament perquè sigui realment programàtic. 
+
+Per aconseguir un procés el resultat del qual siguin textos concrets i programàtics, que puguin arribar a ser legalment vinculants, recomanem: 
+
+
+
+**Evitar partir de zero: com realitzar el document que dóna inici al procés** 
+
+És desitjable que la participació parteixi d'una realitat concreta ja existent i inclogui a totes les parts que considerem que puguin contribuir a un procés robust, que ampliï les àrees de consens i negociació des del primer moment. Algunes fonts des de les quals és inevitable partir en el començament del procés participatiu són: 
+
+
+
+1 - *Programes electorals*:
+
+La ciutadania ja ha expressat una part de les seves preferències a través del vot a sengles partits durant les eleccions. En alguns casos, a més, els programes dels partits ja van passar un procés de participació ciutadana. Perquè aquest treball ciutadà no s'hagi fet en va i per trencar amb la lògica de la democràcia representativa segrestada per la política de partits, és fonamental que els processos de participació incloguin els programes electorals dels partits de govern per fer que els partits els defensin des d'una perspectiva pràctica concreta. 
+
+2 - *Documents programàtics de la societat civil*:
+
+El mapatge previ dels documents ja generats per entitats i agents actius de la societat civil que ja estan treballant en els diferents eixos temàtics i que representen l'imaginari més avançat en cada àmbit. 
+
+3 - *La legislació vigent*:
+
+És inevitablement el punt de partida, ja que el resultat del procés participatiu aspira a acabar desembocant en una transformació d'aquesta. Cal recollir la legislació relativa als àmbits desenvolupats i bolcar-la en el procés participatiu en un llenguatge quotidià. 
+
+
+
+*CONDITIO SINE QUA NON*: Entenem que la coresponsabilitat en el procés participatiu no implica que els ciutadans coneguin o investiguin tots els punts anteriors. És responsabilitat de l'Ajuntament, que disposa de recursos necessaris, recopilar i unificar aquestes informacions i posar-les a disposició de la ciutadania en format d'un únic document en el qual es puguin rastrejar totes les fonts. Aquest document únic seria el punt de partida del procés. A més, el document hauria d'aprofundir amb més claredat en la definició de 1) el marc, àmbit i abast del procés participatiu; 2) les competències i viabilitat tècnica i pressupostària; 3) l'objectiu concret que es vol assolir. 
+
+
+Des d'una perspectiva tècnica i d'interfície, si es partís d'un únic document es pal·liaria el problema de qualitat de les aportacions causa de la brevetat de l'espai que tenen habilitat (350 caràcters). Entenem que aquesta limitació és deguda a la necessitat que no es col·lapsi l'eina amb excessos. Amb la presència d'un únic document ja articulat canvia el tipus d'intervenció requerida a la ciutadania. Aquest format atendria principalment a esmenes en què els 350 caràcters podrien ser suficients. 
+
+
+<br />
+### ​2) Moderació 
+
+Més enllà de tota millora tècnica de l'eina, el principal instrument per aconseguir un procés robust amb un resultat final sòlid és una moderació efectiva. Aquesta moderació no pot ser a posteriori, ha de ser contínua, acompanyant tot el procés. Cal que es dediquin recursos a aconseguir una moderació des de la competència i a temps real que descarti aviat i de manera justificada les aportacions inviables -fora de competència, malicioses, etc. La moderació ha d'estar enfocada a dirigir el debat cap al màxim aprofitament de l'expertesa de la societat civil, de manera que el procés participatiu es construeixi sempre en positiu, en lloc de ser dispers i malgastar energia i recursos de la ciutadania i l'Ajuntament. 
+
+El fet de començar des de documents inicials més elaborats i acotats i de dur a terme una moderació d'acompanyament més estricta, posa una mica més alt el llindar d'esforç per a la participació ciutadana. Tot i això, pensem que és més desitjable una participació responsable i meditada (alhora que oberta i transparent perquè qualsevol ciutadà, que no té per què ser expert en tot, pugui vigilar en tot moment), que produeixi resultats concrets i aplicables, a la recerca d'una participació principalment quantitativa que finalment no dóna resultats aplicables en la pràctica i que consumeix l'esforç ciutadà en va. Per tot això considerem que els criteris de la valoració de legitimitat dels resultats del procés haurien de ser de dues índoles: qualitatius pel que fa als continguts de les aportacions; i quantitatius només pel que fa a la vigilància ciutadana sobre el procés, és a dir, en els accessos a l'eina i la participació en el vot. D'aquesta manera es pot construir realment un procés de coresponsabilitat i d'alta qualitat alhora. 
+
+
+* **Canals**. A nivell d'interfície s'hauria d'habilitar una via perquè les propostes inviables - per irrealitzables, fora de les competències o fora dels objectius - es puguin desar a la vista com a descartades, però no contaminin la visualització de la resta. És important tenir un registre d'aquest tipus de propostes inviables i justificar-les degudament com a tal, tant per una raó de transparència del procés com per evitar que ressorgeixin un cop i un altre (veure *evitar duplicitats* més endavant). Més encara, les intervencions fora dels objectius, però d'interès per a la millora de la ciutat, podrien encarrilar directament per part dels moderadors a altres eines ja habilitades per l'Ajuntament, com, per exemple, IRIS. Això permetria aprofitar amb més eficiència l'esforç ciutadà. 
+
+* **Política**. Considerem que la moderació per part de l'equip de l'Ajuntament no pot ser neutral, ja que el govern ha estat votat per la ciutadania en base a un programa i unes directrius polítiques en contraposició a d’altres. És inevitable i necessari que el disseny programàtic reflecteixi aquestes directrius. Aquestes són les directrius sobre les quals s'ha de basar la moderació. Tot i que la política de l'Ajuntament tingui una direcció clara per la qual ha estat votat i elegit, ha de governar per a tota la ciutat, per la qual cosa ha d'incloure al màxim la diversitat d'opinions. El treball sobre la participació consisteix també a integrar amb el màxim d'acceptació possible els nous matisos.
+
+  Per tot això, els moderadors, designats per part dels departaments amb competències sobre els continguts dels diversos processos, haurien de poder acompanyar les intervencions de la ciutadania, canalitzant-la i aprofundint en els arguments a temps real, sabent en tot moment com resoldre matisos i obtenir conclusions concretes i detallades. 
+
+
+  *La neutralitat no hauria de manifestar-se en la moderació, que representa les directrius governamentals. No obstant això, la neutralitat sí que pot manifestar-se més en altres aspectes: per exemple en l'estètica del web, que en aquest moment és molt connotada.* 
+
+
+
+* **A temps real**. La presència de la moderació ha d'acompanyar de manera constant els temps de participació. La moderació immediata o fins i tot prèvia (posant recursos per evitar un coll d'ampolla i, per descomptat, sense censura injustificada) preveu la progressió de propostes irrealitzables o fora de les competències de l'Ajuntament que, si no són redireccionades des del principi, contaminaran i perjudicaran la robustesa del procés. 
+
+
+
+* **Des de la competència**. A les temàtiques en les quals l'Ajuntament té competències sempre s'ha de respondre des de la competència (podent indicar que pot trigar més la resposta d'una moderació completa), tenint disponible personal dels departaments competents per la tasca. S'evita, així, el vot massiu de propostes molt ben sonants però sense fonament o irrealitzables i poden recanalitzar-les des de la competència cap a un objectiu realista o descartar-se. 
+
+  *Ex*: [*https://decidim.barcelona/pam/4/proposals/piscinas-municipales-libres-de-cloro*](https://decidim.barcelona/pam/4/proposals/piscinas-municipales-libres-de-cloro) 
+
+
+
+* **Guia per a la participació i la moderació**. Recomanem la publicació d'una guia detallada i justificada sobre quina actuació concreta es demana a la ciutadania i amb quin format i de quina manera es duen a terme els processos de moderació. Aquesta guia pot estar situada en els aspectes generals d'ús de l'eina o fins i tot en una secció a part i s'hauria de recomanar-ne la lectura als usuaris. És important fomentar una participació estructurada i una moderació que tingui entre els seus objectius el fer d’aconseguir-la. 
+
+<br />
+
+### ALGUNES RECOMANACIONS TÈCNIQUES PER A LA PREVENCIÓ D'ABUSOS DE L'EINA
+
+Fins ara no hem detectat cap abús o pràctica deshonesta ressenyades a l'eina Decidim.Barcelona per part dels usuaris. Entenem que això ha estat majorment per la qualitat de l'eina i per la seva bona gestió, però també pel fet que els resultats no són per ara clarament vinculants. En aquest cas, les possibilitats que hi hagi intents de manipulació de l'eina augmentaran previsiblement. 
+
+El **vot amb verificació prèvia** ja suposa ara mateix una excel·lent mesura tècnica de prevenció d'abusos de tipus *spam*, *astroturfing* o similars. L'eina permet també, d'altra banda, altres funcionalitats com l'aportació i el comentari per part d'usuaris que no estan verificats. Evidentment, lloem aquesta decisió que permet la participació en Decidim.Barcelona de manera anònima en nom de la privacitat i també la participació de ciutadans que no estan empadronats a Barcelona però poden així aportar els seus coneixements al procés. No obstant això, aquesta participació sense verificar pot ser més susceptible a abusos d'*spam* i propaganda a l'eina i per això deixem algunes recomanacions tècniques per a la prevenció en aquest sentit: 
+
+
+
+* **Evitar duplicitats**. Tot i que la mateixa eina *Consul* ja compta amb un sistema de reagrupació de propostes a posteriori, recomanem investigar la implementació d'una funcionalitat tècnica prèvia que mostri al ciutadà, en el moment de fer la seva aportació, propostes similars a la seva. El ciutadà pot veure si, efectivament, una proposta com la seva ja ha estat recollida anteriorment i decidir donar suport a aquesta, i fins i tot aportar si creu que pot millorar-la, en lloc de duplicar-la, disminuint la dispersió i millorant l'efectivitat del procés. 
+
+  Ex:** [*https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence_score*](https://decidim.barcelona/pam/4/proposals?search=tramvia%20diagonal&order=confidence_score) 
+
+  *Un exemple d'implementació pràctica d'aquest tipus de funcionalitat per prevenir duplicats es pot trobar a l'agregador****meneame.net****, de codi obert.* 
+
+
+  Aquest tipus de tecnologia de recerca d'aportacions similars mitjançant anàlisi semàntica o per paraules clau pot usar-se també com a eina perquè els moderadors identifiquin fàcilment i previnguin atacs de propaganda, *spam* i *astroturfing*. 
+
+  És molt important prendre les precaucions necessàries per prevenir que l'aplicació de mesures tècniques automàtiques d'aquest tipus danyin la llibertat d'expressió i siguin sinònim de censura. Algunes mesures a prendre: 
+
+  - Que el procés de retirada de qualsevol contingut depengui sempre d'una revisió final i verificació per part d'un moderador humà. 
+
+  - La transparència més gran possible en el codi dels algoritmes utilitzats i l’explicació d'aquests. Això mitigaria falses acusacions de censura. 
+
+  - Implementació de processos d'apel·lació a la retirada de continguts. 
+
+  Raonablement, cal permetre alguna flexibilitat sobre els dos primers punts anteriors, sempre per seguretat i en casos d’abús flagrant. Exemple: la publicació d'una mateixa aportació un cop i un altre de manera recursiva, com *spam*, des d'usuaris diferents però des d'una mateixa IP. Aquest tipus d'abús es minimitzaria en gran mesura si s'indica amb claredat des del principi del procés que les propostes similars o idèntiques seran o bé eliminades o bé reagrupades sistemàticament per la moderació automàtica. És absolutament justificat que les propostes no prenguin rellevància per la seva reiteració sinó només per la seva consistència. Naturalment totes les evidències del procés han de guardar-se i poder ser traçades per tenir proves fefaents davant de qualsevol reclamació. 
+
+
+* **Discussió rellevant**. Recomanem encaridament estudiar la implementació d'un sistema de valoració de les aportacions i dels comentaris mitjançant l'algoritme de Wilson. Aquest sistema corregeix estadísticament vulnerabilitats en el càlcul de prioritzacions i votacions que poden ser abusades per al lobby deshonest i l'*spam* "*rescatant*" i valoritzant les aportacions rellevants respecte a d’altres de controvertides però que poden no tenir cap interès. 
+
+  *Evan Miller explica la teoria matemàtica darrere de l'algoritme de Wilson aquí:*[http://www.evanmiller.org/how-not-to-sort-by-average-rating.html](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html) 
+
+
+* **Distinció per barri**. Les propostes que afecten únicament barri/s concret/s haurien de classificar-se així des del principi. D'aquesta manera la gent interessada del mateix barri pot trobar-les més fàcilment i hi té més poder decisori al damunt. Si es deixen dins de l'apartat general de propostes, les propostes d'un barri concret resulten més susceptibles de ser objectiu d'abusos de *astroturfing* i lobby deshonest ja que aquí la gent del barri tindria més *dificultat* a localitzar-los -mentre que l'autor de la proposta pot promocionar-la artificialment passant-la entre els seus contactes per enllaç directe. 
+
+  *Ex:* [*https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot*](https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot) 
+
+
+<br />
+#### Altres aspectes per millorar
+
+*Cites presencials*: El resultat de les cites presencials està en alguns casos molt ben detallat però en altres poc o gens. Els resultats que haurien d'aportar de manera indispensable en tots els casos són els punts decidits i les conclusions finals de la trobada. La confusió entre els continguts genèrics de la trobada i els objectius que ha assolit redueix l'efectivitat de les aportacions rebudes en les trobades presencials. A més d'això, i en nom de la transparència, recomanaríem també incloure un *streaming* en directe o vídeo de la trobada que quedi penjat a la plataforma, sempre preguntant si algun ciutadà prefereix mantenir el seu anonimat i prenent mesures si així fos (des de tancar el pla del *streaming* perquè gravi només els membres de l'Ajuntament, fins a no fer-ho en absolut si, per exemple, el tema és molt delicat i els assistents podrien tenir represàlies). 
+
+
+<br />
+### NOTES FINALS 
+
+La coherència i la transparència dels algoritmes tècnics i de la moderació creen un entorn que combina de manera eficaç i realment democràtica la vigilància de la institució i de la ciutadania sobre el procés. Recalquem la importància d'aconseguir un procés robust i una moderació eficient i resolutiva i recomanem estudiar la implementació dels suggeriments tècnics i metodològics continguts en aquest informe com a mesura preventiva davant futurs abusos. 
+
+
+
+=========================== 
+
+
+
+*[1] Algunes referències: *
+
+
+
+Free Culture Forum 2010 i Free Culture Forum 2011<br />[https://2010.fcforum.net/en/topics/](https://2010.fcforum.net/en/topics/)<br />[https://2012.fcforum.net/tematicas-y-programa-2012/](https://2012.fcforum.net/tematicas-y-programa-2012/) 
+
+
+Descripció metodològica i alguns textos esmenats per la Xarxa Ciutadana Partit X<br />[https://partidox.org/elaboracion-programa-emergencias-concretas/](https://partidox.org/elaboracion-programa-emergencias-concretas/)<br />[http://comentarios.partidox.org/](http://comentarios.partidox.org/) 
+
+
+Un exemple de correcció del 'Pla d'Emergències per sortir de la crisi' de la Xarxa Ciutadana Partit X<br />[http://comentarios.partidox.org/text/3XsGBg9HYhh/view/](http://comentarios.partidox.org/text/3XsGBg9HYhh/view/) 
+
+
+Desenvolupament participatiu del 'Programa per a les eleccions Europees' Xarxa Ciutadana Partit X partint del consens dels textos ja prèviament elaborats<br />[http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa](http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa)<br />[http://comentarios.partidox.org/text/8wyakFD59aw/view/](http://comentarios.partidox.org/text/8wyakFD59aw/view/) 
+
+
+=========================
+
+=========================
+
+
+## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"**
 
 *por Xnet* [*https://xnet-x.net*](https://xnet-x.net/)
 
 <br />
+
 Se han analizado los principales problemas de vulnerabilidad socio-técnicas, más allá de la mera seguridad informática, de la plataforma de participación política Decidim.Barcelona. El presente informe formula una serie de recomendaciones.
 
 Para la redacción de este informe se han explorado las funcionalidades de la plataforma hasta el 8 de noviembre de 2016, prestando especial atención en cómo ha sido habitada por los usuarios, la interacción estos y la interacción entre usuarios y administradores. Se presentan recomendaciones para la mejora de la herramienta planteadas para la consecución más eficiente de los objetivos de la misma. Estas recomendaciones tienen como finalidad la mayor robustez del proceso para conseguir que la herramienta sea menos vulnerable a malas prácticas y manipulaciones, mejorar el conjunto de la experiencia y, sobre todo, mejorar los resultados de participación política ciudadana.
 
 Las competencias de Xnet en este ámbito derivan de sus investigaciones y experiencias como laboratorio del uso de Internet para mejora de la democracia del siglo XXI, centradas en la desintermediación que esta herramienta ejerce en diferentes áreas y, concretamente en este caso, en la desintermediación entre la sociedad civil y sus representantes. Del uso de Internet en las nuevas formas de participación ciudadana, la comparación de experiencias anteriores y la contribución a plataformas colaborativas, ha elaborado una metodología propia  [1] que desemboca, en el 2013-14, en el impulso y coordinación de uno de los prototipos pioneros en el uso de participación política ciudadana: la Red Ciudadana Partido X. Este proyecto, eminentemente metodológico, propone la ampliación de las bases del consenso y la mejora de la eficiencia en participación en el centro de sus objetivos.
-
-
-
-
 
 
 
@@ -184,7 +392,7 @@ El **voto con verificación previa** ya supone ahora mismo una excelente medida 
 
 * **Distinción por barrio**. Las propuestas que afectan únicamente a barrio/s concreto/s deberían clasificarse como tal desde el principio. De este modo la gente interesada del propio barrio puede encontrarlas más fácilmente y tiene mayor poder decisorio sobre ellas. Si se dejan en el apartado general de propuestas, las propuestas de un barrio concreto resultan más susceptibles a ser objetivo de abusos de astroturfing y lobby deshonesto puesto que ahí la gente del barrio tendría más dificultad en localizarlo mientras que el autor de la propuesta puede promocionarla artificialmente pasándola entre sus contactos por enlace directo.
 
-  *Ej:* [https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot*](https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot)
+  *Ej:* [*https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot*](https://decidim.barcelona/pam/4/proposals/un-local-definitiu-per-la-farinera-ateneu-del-clot)
 
 
 
@@ -213,16 +421,23 @@ Recalcamos la importancia de conseguir un proceso robusto y una moderación efic
 *[1] Algunas referencias:*
 
 Free Culture Forum 2010 y Free Culture Forum 2011
+
 [https://2010.fcforum.net/en/topics/](https://2010.fcforum.net/en/topics/)
+
 [https://2012.fcforum.net/tematicas-y-programa-2012/](https://2012.fcforum.net/tematicas-y-programa-2012/)
 
 Descripción metodológica y algunos textos enmendados por la Red Ciudadana Partido X
+
 [https://partidox.org/elaboracion-programa-emergencias-concretas/](https://partidox.org/elaboracion-programa-emergencias-concretas/)
+
 [http://comentarios.partidox.org/](http://comentarios.partidox.org/)
 
 Un ejemplo de corrección del ‘Plan de Emergencias para salir de la crisis’ de la Red Ciudadana Partido X
+
 [http://comentarios.partidox.org/text/3XsGBg9HYhh/view/](http://comentarios.partidox.org/text/3XsGBg9HYhh/view/)
 
 Desarrollo participativo del ‘Programa para las elecciones Europeas’ de la Red Ciudadana Partido X partiendo del consenso de los textos ya previamente elaborados
+
 [http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa](http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa)
+
 [http://comentarios.partidox.org/text/8wyakFD59aw/view/](http://comentarios.partidox.org/text/8wyakFD59aw/view/) 
