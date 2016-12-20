@@ -7,7 +7,6 @@
 
 per Xnet [https://xnet-x.net](https://xnet-x.net/) 
 
-<br />
 
 S'han analitzat els principals problemes de vulnerabilitat soci-tècniques, més enllà de la mera seguretat informàtica, de la plataforma de participació política Decidim.Barcelona. El present informe formula una sèrie de recomanacions. 
 
@@ -211,14 +210,13 @@ Desenvolupament participatiu del 'Programa per a les eleccions Europees' Xarxa C
 
 =========================
 
-=========================
+-------------------------
 
 
-## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"**
+## RECOMENDACIONES ENTORNO A LAS VULNERABILIDADES SOCIO-TÉCNICAS DE LA HERRAMIENTA "DECIDIM.BARCELONA"
 
 *por Xnet* [*https://xnet-x.net*](https://xnet-x.net/)
 
-<br />
 
 Se han analizado los principales problemas de vulnerabilidad socio-técnicas, más allá de la mera seguridad informática, de la plataforma de participación política Decidim.Barcelona. El presente informe formula una serie de recomendaciones.
 
@@ -420,24 +418,10 @@ Recalcamos la importancia de conseguir un proceso robusto y una moderación efic
 
 *[1] Algunas referencias:*
 
-Free Culture Forum 2010 y Free Culture Forum 2011
+Free Culture Forum 2010 y Free Culture Forum 2011<br />[https://2010.fcforum.net/en/topics/](https://2010.fcforum.net/en/topics/)<br />[https://2012.fcforum.net/tematicas-y-programa-2012/](https://2012.fcforum.net/tematicas-y-programa-2012/)
 
-[https://2010.fcforum.net/en/topics/](https://2010.fcforum.net/en/topics/)
+Descripción metodológica y algunos textos enmendados por la Red Ciudadana Partido X<br />[https://partidox.org/elaboracion-programa-emergencias-concretas/](https://partidox.org/elaboracion-programa-emergencias-concretas/)<br />[http://comentarios.partidox.org/](http://comentarios.partidox.org/)
 
-[https://2012.fcforum.net/tematicas-y-programa-2012/](https://2012.fcforum.net/tematicas-y-programa-2012/)
+Un ejemplo de corrección del ‘Plan de Emergencias para salir de la crisis’ de la Red Ciudadana Partido X<br />[http://comentarios.partidox.org/text/3XsGBg9HYhh/view/](http://comentarios.partidox.org/text/3XsGBg9HYhh/view/)
 
-Descripción metodológica y algunos textos enmendados por la Red Ciudadana Partido X
-
-[https://partidox.org/elaboracion-programa-emergencias-concretas/](https://partidox.org/elaboracion-programa-emergencias-concretas/)
-
-[http://comentarios.partidox.org/](http://comentarios.partidox.org/)
-
-Un ejemplo de corrección del ‘Plan de Emergencias para salir de la crisis’ de la Red Ciudadana Partido X
-
-[http://comentarios.partidox.org/text/3XsGBg9HYhh/view/](http://comentarios.partidox.org/text/3XsGBg9HYhh/view/)
-
-Desarrollo participativo del ‘Programa para las elecciones Europeas’ de la Red Ciudadana Partido X partiendo del consenso de los textos ya previamente elaborados
-
-[http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa](http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa)
-
-[http://comentarios.partidox.org/text/8wyakFD59aw/view/](http://comentarios.partidox.org/text/8wyakFD59aw/view/) 
+Desarrollo participativo del ‘Programa para las elecciones Europeas’ de la Red Ciudadana Partido X partiendo del consenso de los textos ya previamente elaborados<br />[http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa](http://eleccioneseuropeas.partidox.org/programa-europeo/#actuaeneuropa)<br />[http://comentarios.partidox.org/text/8wyakFD59aw/view/](http://comentarios.partidox.org/text/8wyakFD59aw/view/) 
